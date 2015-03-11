@@ -1,0 +1,22 @@
+nav:
+    anotherPage: Otra página
+    myCollections: Mis Colecciones
+
+home:
+    content: 'Olá, amigos!'
+
+anotherPage:
+    content: 'Buena página, buena página..'
+
+myCollections:
+    title: Mis colecciones
+    subtitle: oh si
+    numbers: Números
+    tech: Tecnologías
+
+footer:
+    madeBy: Hecha por
+
+notfound:
+    title: 'Página no encontrada'
+    subtitle: 'La página que usted está buscando no existe.'

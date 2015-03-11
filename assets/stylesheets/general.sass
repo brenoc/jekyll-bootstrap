@@ -1,0 +1,17 @@
+@import mixins
+@import variables
+
+body
+  font-family: $primary
+  font-weight: 300
+  font-size: 17px
+  padding-top: 60px
+  @media (max-width: 767px)
+    padding-top: 40px
+
+h1, h2, h3, h4, h5, h6
+  font-weight: bold
+  font-family: $primary
+
+.header .navbar, .footer
+  background-color: $lightGrey

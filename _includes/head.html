@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="{{ page.meta.title }}">
+  <meta name="description" content="{{ page.meta.description }}">
+
+  {% if page.nav == 'home' %}
+  <title>{{ site.name }} - {{ page.title }}</title>
+  {% elsif page.layout == 'blog' %}
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+  {% else %}
+  {% capture title %}{% t page.title %}{% endcapture %}
+  <title>{% if title %}{{ title | capitalize }} - {% endif %}{{ site.name }}</title>
+  {% endif %}
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  
+  {% include styles.html %}  
+</head>

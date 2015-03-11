@@ -1,0 +1,34 @@
+---
+layout: default
+title: nav.myCollections
+nav: myCollections
+styles:
+scripts:
+---
+
+<section class="my-collections-header">
+  <h1>{% t myCollections.title %}</h1>
+  <p class="description">{% t myCollections.subtitle %}</p>  
+</section>
+
+<ul class="my-collections-list list-unstyled">
+  {% for item in site.myCollections reversed %}
+  {% if item.draft == nil %}
+  <li>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-3 text-center">
+        <a href="{{ item.url }}">
+          <img src="{{ item.image }}" class="img-responsive" alt="">
+        </a>
+      </div>
+      <div class="col-md-7">
+        <h3>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </h3>
+        <p>{{ item.subtitle }}</p>
+      </div>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

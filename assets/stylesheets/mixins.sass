@@ -1,0 +1,56 @@
+$prefixes: "-webkit-", "-moz-", "-o-", "-ms-", ""
+
+=prefix($property, $value)
+  @each $prefix in $prefixes
+    #{$prefix}#{$property}: #{$value}
+
+=clear
+  &:before, &:after
+    content: "\0020"
+    display: block
+    height: 0
+    overflow: hidden
+  &:after
+    clear: both
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+// Applying blur in px
+=blur($blur)
+  -webkit-filter: blur($blur)
+  -moz-filter: blur($blur)
+  -o-filter: blur($blur)
+  -ms-filter: blur($blur)
+  filter: blur($blur)
+
+// Animations
+=animation($animation)
+  -webkit-animation: $animation
+  -o-animation: $animation
+  animation: $animation
+
+// Transitions
+
+=transition($transition)
+  -webkit-transition: $transition
+  -o-transition: $transition
+  transition: $transition
+
+// Transformations
+=scale($ratio...)
+  -webkit-transform: scale($ratio)
+  -ms-transform: scale($ratio)
+  // IE9 only
+  -o-transform: scale($ratio)
+  transform: scale($ratio)
+
+=middle
+  display: block
+  align-items: center
+  justify-content: center
+  text-align: center
+

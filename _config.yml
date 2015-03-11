@@ -1,0 +1,59 @@
+name: Jekyll Boostrap (site name)
+description: A jekyll bootstrap.
+
+baseurl: ""
+production_url: http://brenoc.github.io/jekyll-bootstrap
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+      baseurl: ""
+      meta:
+        title: Jekyll Boostrap (site name)
+        description: 'Jekyll Boostrap is an easy way to start a good project in Jekyll.'
+
+analytics:
+  google : 
+    tracking_id : 'UA-'
+
+encoding: utf-8
+port: 9000
+
+languages: ["en", "pt", "es"]
+
+show_drafts: false
+highlighter: pygments
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+markdown: kramdown
+kramdown:
+  use_coderay: true
+  parse_block_html: true
+
+exclude: []
+
+redcarpet:
+  extensions:
+    - tables
+    - strikethrough
+    - no_intra_emphasis
+    - highlight
+    - footnotes
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+
+sass:
+  sass_dir: assets/stylesheets
+  style: :compressed
+
+collections:
+  myCollections:
+    output: true
+    permalink: /myCollections/:path/

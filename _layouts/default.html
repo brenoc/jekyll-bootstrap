@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+
+<body class="{{ page.id }} container">
+  {% include header.html %}
+
+  <section class="main-content clearfix">
+    {{ content }}
+  </section>
+
+  {% include footer.html %}
+  {% include scripts.html %}  
+  {% include ga.html %}  
+</body>
+</html>

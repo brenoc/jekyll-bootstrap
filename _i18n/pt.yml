@@ -1,0 +1,22 @@
+nav:
+    anotherPage: Outra página
+    myCollections: Minhas coleções
+
+home:
+    content: 'Oi, glr!'
+
+anotherPage:
+    content: 'Boa página, boa página..'
+
+myCollections:
+    title: Minhas coleções
+    subtitle: oh sim
+    numbers: Números
+    tech: Tecnologias
+
+footer:
+    madeBy: Feito por
+
+notfound:
+    title: Página não encontrada
+    subtitle: A página que você está procurando não existe.

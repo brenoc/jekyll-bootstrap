@@ -1,0 +1,22 @@
+nav:
+    anotherPage: Another page
+    myCollections: My Collections
+
+home:
+    content: 'Hi, there!'
+
+anotherPage:
+    content: 'Good page, good page..'
+
+myCollections:
+    title: My collections
+    subtitle: oh yeah
+    numbers: Numbers
+    tech: Technologies
+
+footer:
+    madeBy: Made by
+
+notfound:
+    title: Page not found
+    subtitle: The page you are looking for does not exists.
