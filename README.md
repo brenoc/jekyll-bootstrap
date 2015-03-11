@@ -29,9 +29,3 @@ Dependencies:
 To publish, type:
 
     $ grunt
-
-### Custom page
-
-Casos ficam na pasta `_cases/` e são arquivos Markdown.
-
-Imagens relacionadas devem ficar na pasta `media/cases/<caso>/`.
