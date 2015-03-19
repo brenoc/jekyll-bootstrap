@@ -1,8 +1,6 @@
 _site
 .sass-cache
-_data/products.yml
 .idea/
-docs
 Gemfile.lock
 .DS_Store
 node_modules/
