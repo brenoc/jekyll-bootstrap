@@ -1,14 +1,13 @@
 ---
 title: Hello world!
 subtitle: First blog post
-layout: myCollection
-nav: myCollections
+layout: my_collection
+nav: my_collection
 quote: That's my first blog post
 quote-author: Einstein
 image: "http://dummyimage.com/600x400/39819e/fff"
 image-subtitle: 'Sample image'
 class: hello-world
-permalink: /blog/hello-world/
 box-1:
   value: 10 people
   subtitle: Should know better

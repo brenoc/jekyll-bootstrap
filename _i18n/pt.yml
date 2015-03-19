@@ -1,6 +1,7 @@
 nav:
     anotherPage: Outra página
-    myCollections: Minhas coleções
+    my_collection: Minhas coleções
+    blog: Meu blog
 
 home:
     content: 'Oi, glr!'
@@ -8,7 +9,7 @@ home:
 anotherPage:
     content: 'Boa página, boa página..'
 
-myCollections:
+my_collection:
     title: Minhas coleções
     subtitle: oh sim
     numbers: Números

@@ -7,7 +7,7 @@
 
   {% if page.nav == 'home' %}
   <title>{{ site.name }} - {{ page.title }}</title>
-  {% elsif page.layout == 'blog' %}
+  {% elsif page.layout == 'blog' or page.layout == 'my_collection' %}
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
   {% else %}
   {% capture title %}{% t page.title %}{% endcapture %}

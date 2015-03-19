@@ -1,18 +1,18 @@
 ---
 layout: default
-title: nav.myCollections
-nav: myCollections
+title: nav.my_collection
+nav: my_collection
 styles:
 scripts:
 ---
 
 <section class="my-collections-header">
-  <h1>{% t myCollections.title %}</h1>
-  <p class="description">{% t myCollections.subtitle %}</p>  
+  <h1>{% t my_collection.title %}</h1>
+  <p class="description">{% t my_collection.subtitle %}</p>  
 </section>
 
 <ul class="my-collections-list list-unstyled">
-  {% for item in site.myCollections reversed %}
+  {% for item in site.my_collection reversed %}
   {% if item.draft == nil %}
   <li>
     <div class="row">

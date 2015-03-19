@@ -2,9 +2,8 @@
 draft: true
 title: Post that I'm not sure how people are going to react
 subtitle: I don't know
-layout: myCollection
-logo: /media/cases/cea/logo.png
-nav: blog
+layout: my_collection
+nav: my_collection
 quote: Maybe?
 quote-author: Doubtful man
 image: /media/cases/cea/CABeyonce-01.jpg

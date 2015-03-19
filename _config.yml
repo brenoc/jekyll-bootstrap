@@ -52,8 +52,3 @@ assets:
 sass:
   sass_dir: assets/stylesheets
   style: :compressed
-
-collections:
-  myCollections:
-    output: true
-    permalink: /myCollections/:path/
