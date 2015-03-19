@@ -15,6 +15,10 @@ my_collection:
     numbers: Números
     tech: Tecnologias
 
+blog:
+    title: Meu Blog
+    subtitle: o mais legal
+
 footer:
     madeBy: Feito por
 

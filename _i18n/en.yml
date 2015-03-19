@@ -15,6 +15,10 @@ my_collection:
     numbers: Numbers
     tech: Technologies
 
+blog:
+    title: My Blog
+    subtitle: the coolest
+
 footer:
     madeBy: Made by
 
